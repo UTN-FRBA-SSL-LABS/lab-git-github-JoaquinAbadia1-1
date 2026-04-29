@@ -1,3 +1,6 @@
 *.o
 calculadora
+<<<<<<< HEAD
 calculadora.exe
+=======
+>>>>>>> origin/feature/conflicto-demo
