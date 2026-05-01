@@ -715,15 +715,15 @@ c) `(n & 1) == 0` no funciona con números negativos en ningún compilador C est
 d) No hay ninguna diferencia; el compilador genera exactamente el mismo código para ambas
 
 ```
-RESPUESTA_P4=
+RESPUESTA_P4=b
 ```
 =======
 **P2** — Describí con tus palabras qué diferencia hay entre las dos implementaciones de `esPar` que conflictuaban. ¿En qué caso podría importar elegir una sobre la otra?
 
-> R:
+> R:Las dos implementaciones buscan verificar si un número es par, pero lo hacen de manera diferente. (n % 2) == 0 usa el operador módulo (%) para calcular el resto de dividir el número por 2.(n & 1) == 0 usa una operación a nivel de bits. El operador & compara el último bit del número con 1
 
 ```
-PARTE_IV_COMPLETA=
+PARTE_IV_COMPLETA=SI
 ```
 _(escribí SI cuando el conflicto esté resuelto y pusheado)_
 >>>>>>> origin/feature/conflicto-demo
@@ -744,7 +744,7 @@ c) Si hay que revertir un cambio puntual es imposible sin deshacer todo lo del d
 d) Git rechaza commits que modifiquen demasiados archivos al mismo tiempo
 
 ```
-RESPUESTA_P5=
+RESPUESTA_P5=c
 ```
 
 ---
@@ -760,7 +760,7 @@ c) `git fetch` solo descarga la branch actual; `git pull` descarga todas las bra
 d) `git pull` siempre pide confirmación antes de modificar archivos locales; `git fetch` no
 
 ```
-RESPUESTA_P6=
+RESPUESTA_P6=b
 ```
 
 ---
@@ -776,20 +776,20 @@ c) Qué problema resuelve o qué funcionalidad agrega, cómo se verificó que fu
 d) El tiempo que tardó en implementarse y el nombre del autor
 
 ```
-RESPUESTA_P7=
+RESPUESTA_P7=c
 ```
 =======
 **P3** — Un compañero te dice: "yo hago un solo commit al final del día con todo lo que hice". ¿Qué problemas puede traer esa práctica? ¿Qué le dirías?
 
-> R:
+> R: Le diria que esta mal ya que si despes hizo algo mal o hay que cambiar algo por que cambia el modelo de negocio es muy dificil buscar esa funcion sin borrar todo 
 
 **P4** — ¿Cuál es la diferencia entre `git fetch` y `git pull`? ¿Cuándo preferirías usar uno sobre el otro?
 
-> R:
+> R:git fetch descarga los cambios del repositorio remoto pero no modifica la branch local ni los archivos del proyecto. Sirve para actualizar las referencias remotas y revisar cambios antes de integrarlos.git pull hace automáticamente un fetch y luego un merge (o rebase según configuración), integrando los cambios remotos directamente en la branch actual.
 
 **P5** — ¿Qué información debería tener la descripción de un Pull Request para que sea útil para quien lo revisa?
 
-> R:
+> R: Una buena descripción de Pull Request debería explicar qué problema resuelve o qué funcionalidad agrega, cuáles fueron los cambios principales realizados
 >>>>>>> origin/feature/conflicto-demo
 
 ---
