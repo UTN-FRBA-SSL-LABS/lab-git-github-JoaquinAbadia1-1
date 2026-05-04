@@ -15,8 +15,8 @@ Este laboratorio simula el flujo de trabajo que vas a encontrar en equipos profe
 =======
 # Laboratorio: Git y GitHub
 
-**Nombre:** ___________________________
-**Compañero/a:** ___________________________
+**Nombre:** ____________Joaquin Abadia_______________
+**Compañero/a:** ________Octavio Lucardi Fierro______
 
 ---
 
