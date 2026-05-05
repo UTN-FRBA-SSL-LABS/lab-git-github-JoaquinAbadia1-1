@@ -20,7 +20,6 @@ Este laboratorio simula el flujo de trabajo que vas a encontrar en equipos profe
 
 ## Antes de empezar
 
-
 ### Herramientas necesarias
 
 - **Git** instalado localmente
